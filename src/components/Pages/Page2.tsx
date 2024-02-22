@@ -1,11 +1,11 @@
 import React from "react";
-import { Page2Wrapper, Page2Container } from "./styled";
+import { Page2Wrapper, WeddingContainer } from "./styled";
 import { Text } from "../Text";
 
 export const Page2: React.FC = () => {
   return (
     <Page2Wrapper>
-      <Page2Container>
+      <WeddingContainer>
         <Text fontSize="32px" fontWeight="bold" paddingBottom="18px">
           Wedding Invitation
         </Text>
@@ -36,7 +36,7 @@ export const Page2: React.FC = () => {
         <Text fontSize="20px">
           The Bride's Farewell
         </Text>
-      </Page2Container>
+      </WeddingContainer>
     </Page2Wrapper>
   );
 };

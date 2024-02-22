@@ -114,6 +114,31 @@ export const Page2Container = styled.div`
 
   /* opacity: 0.5; */
 `;
+export const WeddingContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #B3BB9C;
+  background-color: #001B39a8;
+
+  ${TextStyled} {
+    font-family: Rouge Script;
+  }
+
+  @media ${device.mobileS} {
+    margin: auto;
+    padding: 30px;
+  }
+
+  @media ${device.tablet} {
+    margin: 100px;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* opacity: 0.5; */
+`;
 
 export const MapStyled = styled.iframe`
   @media ${device.mobileS} {

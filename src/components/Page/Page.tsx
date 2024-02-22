@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 import { Divider } from "../Divider";
 import { parseImgPath } from "./utils";
 
-const IMAGE_LAST_NAME = 'image3';
+const IMAGE_LAST_NAME = 'image_5';
 
 export const Page: React.FC<{
   page: { img?: string; content: JSX.Element };

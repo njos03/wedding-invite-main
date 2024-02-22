@@ -22,7 +22,7 @@ export const Page3: React.FC = () => {
         <Text fontSize="16px" fontWeight="bold" paddingBottom="18px">
           {defaultProps.address}
         </Text>
-        <a href="https://maps.app.goo.gl/JcD3iPrALzASyrxDA" target="_blank">
+        <a href="https://maps.app.goo.gl/JcD3iPrALzASyrxDA" rel="noreferrer" target="_blank">
             Open in Google Maps.
         </a>
       </Page2Container>
